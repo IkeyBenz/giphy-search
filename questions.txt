@@ -1,0 +1,18 @@
+1) What is the difference between req.query and req.body.params?
+   - When to use which...
+   - Body params are written explicitly in the url, if req.query isnt, how is it recieved?
+
+2) Why do we need to set response encoding to utf8?
+   - What is utf8
+   - If we need to read the response in utf8, wouldn't it have needed to be sent in utf8 anyway?
+
+3) There are a crap ton of node_modules installed when running npm init... is there a way to (safely) 
+   only include the ones used in the current project?
+
+4) Someone once lightely explained to me the need for a package-lock.json... something about security.
+   What exactly is it there for and how does it tighten up security in node apps?
+
+5) I deleted the main.handlebars in layouts and removed {mainLayout: 'main'} from the exphbs callback
+   - Why did we initiall include it?
+
+6) What is this difference between 'hbs' and 'handlebars' || 'express-handlebars' vs 'handlebars'
